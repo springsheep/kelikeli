@@ -1,0 +1,1222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4ae9f99a-9bb0-4420-a36c-7f657acbddb6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/wuye/newskind.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Company/CoSeeTongzhi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Company/CoSeeTongzhi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/NewTongzhi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/NewTongzhi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/PublicService.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/PublicService.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/WuLitongzhi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/WuLitongzhi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/WuTongzhi.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/WuTongzhi.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/Wubasicsetting.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/Wubasicsetting.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/WucompanyInfo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/WucompanyInfo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/WuseeTZ.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/WuseeTZ.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/wuye/introduce.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/wuye/introduce.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/store/state.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ma" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/wuye/Admshenhe.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Index.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Company/CoSeeTongzhi.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="128" selection-start-line="4" selection-start-column="128" selection-end-line="4" selection-end-column="128" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Company/Litongzhi.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/wuye/PublicService.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dist/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="131" selection-start-line="3" selection-start-column="131" selection-end-line="3" selection-end-column="131" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#203#226#0" expanded="true" />
+                <element signature="e#443#467#0" expanded="true" />
+                <element signature="e#683#719#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Company/Tongzhi.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1005">
+              <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="73" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Agree.vue">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/wuye/Wubasicsetting.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#3;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>openId</find>
+      <find>/visitor/index'</find>
+      <find>getTZ</find>
+      <find>activeClass</find>
+      <find>ComInfo</find>
+      <find>comId</find>
+      <find>getAttribute</find>
+      <find>robot</find>
+      <find>xw-chat-servicer</find>
+      <find>getEmojiData</find>
+      <find>xw-vmodel-wrap</find>
+      <find>.xw-chat-customer .xw-chat-msg</find>
+      <find>border-bottom</find>
+      <find>overlay</find>
+      <find>xw-chat-tool-item</find>
+      <find>xw-footer-wrap</find>
+      <find>address</find>
+      <find>Bottom_button</find>
+      <find>baidu_ditu</find>
+      <find>play</find>
+      <find>xw-chat-wrap</find>
+      <find>xw-chat-customer</find>
+      <find>xw-content</find>
+      <find>xw-header-content</find>
+      <find>xw-header</find>
+      <find>addEventListener</find>
+      <find>5d9deb</find>
+      <find>#cee4ff</find>
+      <find>#1a96d4</find>
+      <find>xw-chat-msg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/store</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/Company/CoSearch.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/Cosure.vue" />
+        <option value="$PROJECT_DIR$/qqqq/wuye/WucompanyInfo.vue" />
+        <option value="$PROJECT_DIR$/qqqq/WucompanyInfo.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/CoProperty.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/Cochoose.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/Cocomheader.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/Comycenter.vue" />
+        <option value="$PROJECT_DIR$/store/mutations.js" />
+        <option value="$PROJECT_DIR$/src/components/wuye/ChoodeBuild.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/AfterSuggest.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/sure.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/SearchCompany.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Login.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/CoLogin.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/Tongzhi.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/Litongzhi.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Examine.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Pass.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Submit.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Wumycenter.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/CommonHeader.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/detail.vue" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/src/App.vue" />
+        <option value="$PROJECT_DIR$/src/components/visitor/Submit.vue" />
+        <option value="$PROJECT_DIR$/src/components/visitor/chart.html" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Wusetter.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Property.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/preload.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Show.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Wumap.vue" />
+        <option value="$PROJECT_DIR$/build/webpack.base.conf.js" />
+        <option value="$PROJECT_DIR$/src/components/wuye/123.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/components/visitor/robot.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/WuseeTZ.vue" />
+        <option value="$PROJECT_DIR$/src/components/Company/CoSeeTongzhi.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/introduce.vue" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/components/wuye/WucompanyInfo.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/newskind.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/WuTongzhi.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/NewTongzhi.vue" />
+        <option value="$PROJECT_DIR$/store/state.js" />
+        <option value="$PROJECT_DIR$/src/components/wuye/WuLitongzhi.vue" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/config/wx.js" />
+        <option value="$PROJECT_DIR$/src/components/wuye/Wubasicsetting.vue" />
+        <option value="$PROJECT_DIR$/src/components/Index.vue" />
+        <option value="$PROJECT_DIR$/src/components/wuye/PublicService.vue" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="186" />
+    <option name="y" value="29" />
+    <option name="width" value="1395" />
+    <option name="height" value="798" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="visitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ma" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ma" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="wuye" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="218" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="219" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="218" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="219" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="218" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="218" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="219" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="218" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="219" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="218" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/qqqq" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/js" />
+      <recent name="$PROJECT_DIR$/src/assets/images" />
+      <recent name="$PROJECT_DIR$/src/components/wuye" />
+      <recent name="$PROJECT_DIR$/static/image" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration" myAutoUpdateAfterCommit="true" cleanupOnStartRun="true">
+    <configuration>$USER_HOME$/.subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+    <option name="UPDATE_DEPTH" value="infinity" />
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4ae9f99a-9bb0-4420-a36c-7f657acbddb6" name="Default Changelist" comment="" />
+      <created>1562123603917</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562123603917</updated>
+      <workItem from="1562123605105" duration="16482000" />
+      <workItem from="1562203304565" duration="20642000" />
+      <workItem from="1562234238344" duration="6216000" />
+      <workItem from="1562288892260" duration="27697000" />
+      <workItem from="1562336508915" duration="2074000" />
+      <workItem from="1562384029813" duration="2475000" />
+      <workItem from="1562425634388" duration="319000" />
+      <workItem from="1562548363116" duration="51796000" />
+      <workItem from="1562721112967" duration="9386000" />
+      <workItem from="1562731427754" duration="240000" />
+      <workItem from="1562736882652" duration="449000" />
+      <workItem from="1562746584604" duration="1396000" />
+      <workItem from="1562748673972" duration="288000" />
+      <workItem from="1562749057970" duration="9120000" />
+      <workItem from="1562808547163" duration="62000" />
+      <workItem from="1562814913840" duration="99000" />
+      <workItem from="1562842766959" duration="5776000" />
+      <workItem from="1562910664852" duration="15000" />
+      <workItem from="1562920135932" duration="1228000" />
+      <workItem from="1562921623568" duration="24662000" />
+      <workItem from="1563165515386" duration="2100000" />
+      <workItem from="1563174825722" duration="45000" />
+      <workItem from="1563175140176" duration="1871000" />
+      <workItem from="1563239377605" duration="8404000" />
+      <workItem from="1563260067881" duration="1577000" />
+      <workItem from="1563272000193" duration="282000" />
+      <workItem from="1563333626248" duration="443000" />
+      <workItem from="1563358529893" duration="2987000" />
+      <workItem from="1563411690460" duration="2572000" />
+      <workItem from="1563431615536" duration="38000" />
+      <workItem from="1563434024174" duration="250000" />
+      <workItem from="1563447674989" duration="776000" />
+      <workItem from="1563523329588" duration="6759000" />
+      <workItem from="1563758598615" duration="9923000" />
+      <workItem from="1563777971734" duration="2394000" />
+      <workItem from="1563782508505" duration="228000" />
+      <workItem from="1563785960153" duration="1918000" />
+      <workItem from="1563930092986" duration="10644000" />
+      <workItem from="1563955493557" duration="15918000" />
+      <workItem from="1564040113659" duration="1563000" />
+      <workItem from="1564042253866" duration="5484000" />
+      <workItem from="1564102536477" duration="1153000" />
+      <workItem from="1564104928194" duration="659000" />
+      <workItem from="1564119896507" duration="1163000" />
+      <workItem from="1564129069583" duration="3545000" />
+      <workItem from="1564138706420" duration="260000" />
+      <workItem from="1564210002778" duration="41000" />
+      <workItem from="1564211976015" duration="63000" />
+      <workItem from="1564388509615" duration="606000" />
+      <workItem from="1564411649442" duration="4970000" />
+      <workItem from="1564450650773" duration="8238000" />
+      <workItem from="1564470499897" duration="16000" />
+      <workItem from="1564470579967" duration="433000" />
+      <workItem from="1564481150427" duration="1253000" />
+      <workItem from="1564540485956" duration="14000" />
+      <workItem from="1564541425110" duration="59000" />
+      <workItem from="1564543366003" duration="14000" />
+      <workItem from="1564650871659" duration="1669000" />
+      <workItem from="1564652831622" duration="13000" />
+      <workItem from="1564652973496" duration="633000" />
+      <workItem from="1564832656407" duration="949000" />
+      <workItem from="1565070574555" duration="625000" />
+      <workItem from="1565072905308" duration="10000" />
+      <workItem from="1565073054690" duration="79000" />
+      <workItem from="1565073158235" duration="43000" />
+      <workItem from="1565073222818" duration="484000" />
+      <workItem from="1565074324556" duration="95000" />
+      <workItem from="1565157592993" duration="16000" />
+      <workItem from="1565157720310" duration="56000" />
+      <workItem from="1565161275136" duration="811000" />
+      <workItem from="1565162298770" duration="671000" />
+      <workItem from="1565164474154" duration="196000" />
+      <workItem from="1565165488107" duration="19000" />
+      <workItem from="1565226076530" duration="3000" />
+      <workItem from="1565252062777" duration="13000" />
+      <workItem from="1565342420102" duration="2989000" />
+      <workItem from="1565599851678" duration="36000" />
+      <workItem from="1565606234483" duration="2679000" />
+      <workItem from="1566464032579" duration="9897000" />
+      <workItem from="1566805629137" duration="674000" />
+      <workItem from="1566958904562" duration="33000" />
+      <workItem from="1567419498646" duration="701000" />
+      <workItem from="1567754627748" duration="95000" />
+      <workItem from="1568256122988" duration="30000" />
+      <workItem from="1569287853276" duration="477000" />
+    </task>
+    <task id="LOCAL-00001">
+      <created>1562293715028</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562293715028</updated>
+    </task>
+    <task id="LOCAL-00002">
+      <created>1562326302034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562326302034</updated>
+    </task>
+    <task id="LOCAL-00003" summary="修改了存储 统一化">
+      <created>1562656855032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562656855032</updated>
+    </task>
+    <task id="LOCAL-00004">
+      <created>1562843992027</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562843992027</updated>
+    </task>
+    <task id="LOCAL-00005">
+      <created>1562844097025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562844097025</updated>
+    </task>
+    <task id="LOCAL-00006">
+      <created>1562844492030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562844492030</updated>
+    </task>
+    <task id="LOCAL-00007">
+      <created>1562844527030</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562844527030</updated>
+    </task>
+    <task id="LOCAL-00008">
+      <created>1562844566027</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562844566027</updated>
+    </task>
+    <task id="LOCAL-00009">
+      <created>1562844593027</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562844593027</updated>
+    </task>
+    <task id="LOCAL-00010">
+      <created>1562896076170</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1562896076170</updated>
+    </task>
+    <task id="LOCAL-00011">
+      <created>1562896744196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1562896744196</updated>
+    </task>
+    <task id="LOCAL-00012">
+      <created>1562896760187</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1562896760187</updated>
+    </task>
+    <task id="LOCAL-00013">
+      <created>1562896774214</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1562896774214</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更改了进入刷新bug">
+      <created>1562931389217</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1562931389217</updated>
+    </task>
+    <task id="LOCAL-00015" summary="添加了 点击切换 获取所有用户 添加了物业端默认的选中状态">
+      <created>1562933143181</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562933143181</updated>
+    </task>
+    <task id="LOCAL-00016" summary="添加了 点击切换 获取所有用户 添加了物业端默认的选中状态">
+      <created>1562937115208</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1562937115208</updated>
+    </task>
+    <task id="LOCAL-00017" summary="添加了 点击切换 获取所有用户 添加了物业端默认的选中状态">
+      <created>1562937210187</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1562937210187</updated>
+    </task>
+    <task id="LOCAL-00018">
+      <created>1563031694190</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1563031694190</updated>
+    </task>
+    <task id="LOCAL-00019" summary="更改了保存审核设置必须先传二维码 以及历史通知页面默认三个月内的">
+      <created>1563116294234</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1563116294234</updated>
+    </task>
+    <task id="LOCAL-00020" summary="保存上一次的拜访是由">
+      <created>1563116739202</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1563116739202</updated>
+    </task>
+    <task id="LOCAL-00021" summary="访客端设置   把联系电话和姓名放开">
+      <created>1563117076204</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1563117076204</updated>
+    </task>
+    <task id="LOCAL-00022" summary="防止访客端页面重复点击">
+      <created>1563118290219</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1563118290219</updated>
+    </task>
+    <task id="LOCAL-00023" summary="公司端没有阅读记录 有提示&#10;更改了新增通知页面的12哥模版">
+      <created>1563244841184</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1563244841184</updated>
+    </task>
+    <task id="LOCAL-00024" summary="添加了 物业中心保存功能">
+      <created>1563245713199</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1563245713199</updated>
+    </task>
+    <task id="LOCAL-00025" summary="添加了 物业中心保存功能">
+      <created>1563333812196</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1563333812196</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更改了拖拽bug  和详情页的宽度不够问题">
+      <created>1563361597220</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1563361597220</updated>
+    </task>
+    <task id="LOCAL-00027" summary="更改了第一次进入的bug">
+      <created>1563413908181</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1563413908181</updated>
+    </task>
+    <task id="LOCAL-00028">
+      <created>1564212025175</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1564212025175</updated>
+    </task>
+    <task id="LOCAL-00029" summary="更改了小度的细节 和主题颜色">
+      <created>1564464910172</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1564464910173</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="303081000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="186" y="29" width="1395" height="798" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8584071" visible="true" weight="0.22925764" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.14159292" side_tool="true" weight="0.17690599" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29044586" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49963155" visible="true" weight="0.23796034" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003685" side_tool="true" weight="0.16687898" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299363" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8584071" visible="true" weight="0.22205773" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.14159292" side_tool="true" weight="0.17690599" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.29044586" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49963155" visible="true" weight="0.30828026" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003685" side_tool="true" weight="0.16687898" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3299363" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <MESSAGE value="修改了存储 统一化" />
+    <MESSAGE value="添加了查看阅读数量，阅读公司，未阅读公司，可以点击公司进入详情页 进行电话拨打，添加了查看阅读功能" />
+    <MESSAGE value="更改了进入刷新bug" />
+    <MESSAGE value="添加了 点击切换 获取所有用户 添加了物业端默认的选中状态" />
+    <MESSAGE value="更改了保存审核设置必须先传二维码 以及历史通知页面默认三个月内的" />
+    <MESSAGE value="保存上一次的拜访是由" />
+    <MESSAGE value="访客端设置   把联系电话和姓名放开" />
+    <MESSAGE value="防止访客端页面重复点击" />
+    <MESSAGE value="公司端没有阅读记录 有提示&#10;更改了新增通知页面的12哥模版" />
+    <MESSAGE value="添加了 物业中心保存功能" />
+    <MESSAGE value="更改了拖拽bug  和详情页的宽度不够问题" />
+    <MESSAGE value="更改了第一次进入的bug" />
+    <MESSAGE value="更改了小度的细节 和主题颜色" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改了小度的细节 和主题颜色" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Company/Cochoose.vue</url>
+          <line>24</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Index.vue</url>
+          <line>263</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/Index.vue</url>
+          <line>286</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/visitor/robot.vue</url>
+          <line>235</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/wuye/Wubasicsetting.vue</url>
+          <line>43</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assets/images/9.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/js/app.128841be550c6d0e00d9.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/visitor/chart.html" />
+    <entry file="file://$PROJECT_DIR$/src/components/visitor/Submit.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2955">
+          <caret line="198" column="15" selection-start-line="198" selection-start-column="15" selection-end-line="198" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/visitor/SearchCompany.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2055">
+          <caret line="137" column="11" selection-start-line="122" selection-start-column="8" selection-end-line="137" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.dev.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-212" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/check-versions.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-885" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/vue-loader.conf.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Wusetter.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="89" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="89" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#router-link#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/preload.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="110" column="9" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/123.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="34" selection-start-line="68" selection-start-column="26" selection-end-line="68" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/webpack.base.conf.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/static/css/app.ca3749ee36cd457c3c83eb406c5b7d71.css" />
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/CommonHeader.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Wumap.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#bm-view#0;n#baidu-map#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/WuseeTZ.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="32" column="8" selection-start-line="25" selection-start-column="4" selection-end-line="32" selection-end-column="8" />
+          <folding>
+            <element signature="e#336#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Show.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="134" column="84" selection-start-line="134" selection-start-column="84" selection-end-line="134" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Examine.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="42" selection-start-line="50" selection-start-column="23" selection-end-line="53" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#div#2;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#div#2;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#label#0;n#div#0;n#div#2;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#5;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/visitor/robot.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-end-line="1090" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#div#1;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Property.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" column="98" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="98" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#mt-badge#0;n#div#0;n#router-link#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="125" selection-start-line="5" selection-start-column="125" selection-end-line="5" selection-end-column="125" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/introduce.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/WucompanyInfo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="38" column="38" lean-forward="true" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#li#1;n#ul#1;n#form#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/newskind.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#mt-field#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/state.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/NewTongzhi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4065">
+          <caret line="274" column="47" selection-start-line="274" selection-start-column="47" selection-end-line="274" selection-end-column="47" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-checkbox#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-checkbox#1;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/WuTongzhi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/wx.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Inquire.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3645">
+          <caret line="250" column="40" selection-start-line="250" selection-start-column="40" selection-end-line="250" selection-end-column="40" />
+          <folding>
+            <element signature="e#5411#5431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/WuLitongzhi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1695">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#3;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#4;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#4;n#div#1;n#li#0;n#ul#0;n#div#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="88" column="82" selection-start-line="88" selection-start-column="82" selection-end-line="88" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/sure.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Information.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/detail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Admshenhe.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Index.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Company/CoSeeTongzhi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="128" selection-start-line="4" selection-start-column="128" selection-end-line="4" selection-end-column="128" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Company/Tongzhi.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1005">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="73" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Agree.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/Wubasicsetting.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#3;n#label#0;n#span#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#3;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#div#4;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Company/Litongzhi.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/images/17.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/wuye/PublicService.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="131" selection-start-line="3" selection-start-column="131" selection-end-line="3" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#203#226#0" expanded="true" />
+            <element signature="e#443#467#0" expanded="true" />
+            <element signature="e#683#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

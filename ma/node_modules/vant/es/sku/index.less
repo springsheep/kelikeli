@@ -1,0 +1,249 @@
+@import '../style/var';
+@import '../style/mixins/clearfix';
+
+.van-sku {
+  &-container {
+    max-height: max-content; /* avoid androiod keyboard cover fields */
+    overflow-y: visible;
+    font-size: 14px;
+    background: @white;
+  }
+
+  &-body {
+    max-height: 350px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  /* sku header */
+  &-header {
+    margin-left: 15px;
+
+    &__img-wrap {
+      position: relative;
+      float: left;
+      width: 80px;
+      height: 80px;
+      margin-top: -10px;
+      background: @background-color;
+      border-radius: 2px;
+
+      img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        max-width: 100%;
+        max-height: 100%;
+        margin: auto;
+      }
+    }
+
+    &__goods-info {
+      box-sizing: border-box;
+      min-height: 82px;
+      padding: 10px 60px 10px 10px;
+      overflow: hidden;
+    }
+  }
+
+  &__goods-name {
+    font-size: 12px;
+  }
+
+  &__price-symbol {
+    vertical-align: middle;
+  }
+
+  &__price-num {
+    font-size: 16px;
+    vertical-align: middle;
+  }
+
+  &__goods-price {
+    margin-top: 10px;
+    color: @red;
+    vertical-align: middle;
+  }
+
+  &__close-icon {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: @gray-dark;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  &-group-container {
+    margin-left: 15px;
+    padding: 12px 0 2px;
+
+    &--hide-soldout {
+      .van-sku-row__item--disabled {
+        display: none;
+      }
+    }
+  }
+
+  /* sku row */
+  &-row {
+    margin: 0 15px 10px 0;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &__title {
+      padding-bottom: 10px;
+    }
+
+    &__item {
+      display: inline-block;
+      box-sizing: border-box;
+      min-width: 52px;
+      height: 28px;
+      margin: 0 10px 10px 0;
+      padding: 5px 9px;
+      color: @text-color;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      border: 1px solid @gray-dark;
+      border-radius: 3px;
+
+      &--active {
+        color: @white;
+        background: @red;
+        border-color: @red;
+      }
+
+      &--disabled {
+        color: @gray;
+        background: @active-color;
+        border-color: @border-color;
+      }
+    }
+  }
+
+  /* sku stepper */
+  &-stepper {
+    &-stock {
+      margin-left: 15px;
+      padding: 12px 0;
+    }
+
+    &-container {
+      height: 30px;
+      margin-right: 20px;
+    }
+  }
+
+  &__stepper {
+    float: right;
+
+    &-title {
+      float: left;
+      line-height: 30px;
+    }
+  }
+
+  &__stock {
+    display: inline-block;
+    margin-right: 10px;
+    color: @gray-dark;
+    font-size: 12px;
+  }
+
+  &__quota {
+    display: inline-block;
+    color: @red;
+    font-size: 12px;
+  }
+
+  &-messages {
+    padding-bottom: 10px;
+    background: @background-color;
+
+    &__image-cell {
+      .van-cell__title {
+        max-width: 90px;
+      }
+
+      .van-cell__value {
+        text-align: left;
+      }
+    }
+  }
+
+  &-img-uploader {
+    display: inline-block;
+
+    &__header {
+      padding: 0 10px;
+      color: @text-color;
+      font-size: 12px;
+      line-height: 24px;
+      border: 1px solid @border-color;
+      border-radius: 3px;
+
+      .van-icon {
+        top: 3px;
+        margin-right: 5px;
+        font-size: 14px;
+      }
+    }
+
+    &__img {
+      position: relative;
+      float: left;
+      width: 60px;
+      height: 60px;
+      margin: 10px 10px 0 0;
+      border: 1px solid @border-color;
+
+      img {
+        position: relative;
+        top: 50%;
+        max-width: 100%;
+        max-height: 100%;
+        transform: translateY(-50%);
+      }
+    }
+
+    &__delete {
+      position: absolute;
+      top: -12px;
+      right: -14px;
+      z-index: 1;
+      padding: 6px;
+      color: @red;
+
+      &::before {
+        background-color: @white;
+        border-radius: 14px;
+      }
+    }
+
+    &__uploading {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      margin: auto;
+    }
+  }
+
+  /* sku actions */
+  &-actions {
+    display: flex;
+  }
+}

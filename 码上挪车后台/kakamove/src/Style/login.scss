@@ -1,0 +1,172 @@
+.login {
+  position: fixed;
+  z-index: 1001;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #f5f6f7;
+  .top {
+    height: 60px;
+    background: #fff;
+    padding-left: 18%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    img {
+      margin-right: 10px;
+    }
+  }
+}
+
+/*注册页面*/
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 transparent;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.login-box {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+  background:rgba(255,255,255,0.2);
+  width: 45%;
+  margin: 10% auto;
+  box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2);
+}
+
+@media (max-width: 576px) {
+  .login-box,
+  .register-box {
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .login {
+    .top {
+      padding-left: 5%;
+    }
+  }   
+}
+.logo_icon{
+  margin-right: 10px;
+}
+.login-box-msg{
+  margin-top: 50px;
+  font-size: 19px;
+  color: #666666;
+}
+@media (max-width: 576px) {
+  .login-box-msg {
+    margin-top: 20px;
+  }
+}
+.form-group {
+  width: 44%;
+  margin: 20px auto;
+}
+@media (max-width: 576px) {
+  .form-group {
+    width: 100%;
+  }
+}
+.login-box{
+  text-align: center;
+}
+.input-txt{
+  float: left;
+  display: block;
+  width: 60px;
+}
+.form-control{
+  text-align: left;
+  display: flex;
+}
+.input-control{
+  float: left;
+  border: 0;
+  height: 24px;
+  margin-left: 2%;
+  width: 78%;
+  outline:none;
+}
+.input-control:hover,.input-control:active{
+  outline:none;
+}
+.input-btn{
+  display: block;
+  width: 90px;
+  background-color: #ffffff;
+  border-radius: 3px;
+  border: solid 1px #499ffe;
+  color: #499ffe;
+  text-align: center;
+  font-size: 14px;
+}
+.input-control2{
+ width: 60%
+}
+@media (max-width: 576px) {
+  .input-btn {
+    font-size: 12px;
+    width: 80px;
+    height: 22px;
+    line-height: 22px;
+  }
+  .input-control2{
+    width: 55%;
+  }
+}
+.btn-login{
+  height: 40px;
+  border: solid 1px #d1dbe5 ;
+  background-color: #499ffe;
+  border-radius: 3px;
+  color:#fff;
+  cursor: pointer;
+}
+.bottom-logo{
+  margin-top: 10vh;
+  color: #666666;
+}
+.bottom-logo>p{
+  margin: 0;
+  line-height: 20px;
+  font-size: 12px;
+}
+.brand-logo{
+  background-color: #499ffe;
+  font-size: 16px;
+}
+.brand-link{
+  padding: 1.3rem .5rem;
+}
+.brand-text{
+  color:#fff;
+}
+.nav-center{
+  text-align: center;
+}
+.sidebar-dark-primary {
+  background-color: #2f323a;
+}
+.index_total{
+  font-size: 16px;
+  color: #666666;
+  margin: 0.5rem ;
+}
+.index_num{
+  color: #499ffe;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0.5rem ;
+}

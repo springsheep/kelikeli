@@ -1,0 +1,51 @@
+import Vue from 'vue'
+import App from './App'
+import router from './router'
+import MintUI from 'mint-ui'
+import 'mint-ui/lib/style.css'
+Vue.use(MintUI)
+import './styles/reset.css'
+import axios from 'axios'
+import qs from 'qs';
+import {get, post, jpost, jpost2} from "./utils/request";
+import store from '../store/index'
+import animated from 'animate.css' // npm install animate.css --save安装，在引入
+import Vant from 'vant';
+import 'vant/lib/index.css';
+import {Button} from 'mint-ui';
+Vue.component(Button.name, Button)
+//引入复选
+import {Checklist} from 'mint-ui';
+Vue.component(Checklist.name, Checklist);
+Vue.use(Vant);
+Vue.use(animated)
+Vue.prototype.$get = get;
+Vue.prototype.$post = post;
+Vue.prototype.$jpost = jpost;
+Vue.prototype.$jpost2 = jpost2;
+// 引用
+
+//上传环境的配置
+//福哥的ip
+axios.defaults.baseURL = 'http://192.168.123.124:8880';
+// 测试环境
+// axios.defaults.baseURL = 'https://test.kelibbb.com/klkl_visit/';
+//实际环境
+// axios.defaults.baseURL = 'https://api.kelibbb.com:8883';  //上传后访问路径
+
+
+Vue.config.productionTip = false;
+Vue.prototype.axios = axios;
+
+Vue.use(MintUI)
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  router,
+  store,
+  qs,
+  components: {App},
+  template: '<App/>'
+})

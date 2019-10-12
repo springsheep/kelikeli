@@ -1,0 +1,176 @@
+<template>
+  <div id="app1">
+    <input placeholder="请输入车牌号或拍摄行驶证" value="浙A" class="select_input f22" @focus="showBord()" id="carno"
+           readonly/>
+
+  </div>
+</template>
+
+<script>
+  import $ from 'jquery'
+
+  export default {
+    name: "chepai1",
+    data() {
+      return {
+        provinces: new Array("京", "沪", "浙", "苏", "粤", "鲁", "晋", "冀",
+          "豫", "川", "渝", "辽", "吉", "黑", "皖", "鄂",
+          "津", "贵", "云", "桂", "琼", "青", "新", "藏",
+          "蒙", "宁", "甘", "陕", "闽", "赣", "湘"),
+        keyNums: new Array("0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
+          "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P",
+          "A", "S", "D", "F", "G", "H", "J", "K", "L",
+          "Z", "X", "C", "V", "B", "N", "M", "删除"),
+        next: 1, num: 0
+      }
+    },
+    created() {
+
+    },
+    methods: {
+      showBord() {
+        // console.log(111)
+        var carnoin = $("#carno").val();
+        if (carnoin.length == 0) {
+          this.layer.open({
+            type: 1
+            , title: false
+            , closeBtn: 0, content: '<div id="pro"></div>', offset: ['350px', '0px'], anim: 'up'
+            , shade: false
+            , style: 'position:fixed; bottom:0; width: 100%; height: auto; padding:0; border:none;'
+          });
+          showProvince();
+          $(".layui-layer").css('width', '100%');
+          $(".layui-layer").css('top', '');
+          $(".layui-layer").css('bottom', '0');
+        } else {
+          layer.open({
+            type: 1
+            , title: false
+            , closeBtn: 0, content: '<div id="pro"></div>', offset: ['350px', '0px'], anim: 'up'
+            , shade: false
+            , style: 'position:fixed; bottom:0; width: 100%; height: auto; padding:0; border:none;'
+          });
+          showKeybord();
+          $(".layui-layer").css('width', '100%');
+          $(".layui-layer").css('top', '');
+          $(".layui-layer").css('bottom', '0');
+        }
+
+      },
+      showProvince() {
+        $("#pro").html("");
+        var ss = "";
+        for (var i = 0; i < provinces.length; i++) {
+          ss = ss + addKeyProvince(i)
+        }
+        $("#pro").html("<div class='close' onclick='closePro()'>关闭</div><ul class='clearfix ul_pro'>" + ss + "<li class='li_close' onclick='closePro();'><span>关闭</span></li></ul>");
+      },
+      showKeybord() {
+        $("#pro").html("");
+        var sss = "";
+        for (var i = 0; i < keyNums.length; i++) {
+          sss = sss + '<li class="ikey ikey' + i + ' ' + (i > 9 ? "li_zm" : "li_num") + ' ' + (i > 28 && i < 36 ? "li_w" : "") + ' ' + (i == 36 ? "li_w2" : "") + ' ' + (i == 17 ? "li_nouse" : "") + ' ' + (i == 18 ? "li_nouse" : "") + '" >';
+          if (i == 17 || i == 18) {
+            sss += '<span >' + keyNums[i] + '</span></li>';
+          } else {
+            sss += '<span onclick="choosekey(this,' + i + ');">' + keyNums[i] + '</span></li>';
+
+          }
+        }
+        $("#pro").html("<div class='close' onclick='closePro()'>关闭</div><ul class='clearfix ul_keybord'>" + sss + "</ul>");
+      },
+      addKeyProvince(provinceIds) {
+        var addHtml = '<li>';
+        addHtml += '<span onclick="chooseProvince(this);">' + provinces[provinceIds] + '</span>';
+        addHtml += '</li>';
+        return addHtml;
+      },
+      chooseProvince(obj) {
+        $("#carno").val($(obj).text() + $("#carno").val());
+        showKeybord();
+      },
+      choosekey(obj, jj) {
+        //$("input[type=checkbox]").is(":checked");
+        //获得光标的位子
+        var self = document.getElementById("carno");
+        var pos = self.selectionStart;
+//        console.log(pos);
+        var num = $("#carno").val().length;
+        if (pos == 0 || !pos) {
+          if (jj == 36) {
+            if (num > 0) {
+              $("#carno").val($("#carno").val().substr(0, num - 1));
+              if (num == 1) {
+                showProvince();
+              }
+            }
+
+          } else {
+            // console.log("添加的位置" + pos);
+            if (num < 8) {
+              if (num == 1) {
+                if (jj > 9) {
+                  $("#carno").val($("#carno").val() + $(obj).text());
+                }
+              } else {
+                $("#carno").val($("#carno").val() + $(obj).text());
+              }
+
+            }
+          }
+        } else {
+          if (jj == 36) {
+//            console.log("删除前光标位置"+pos);
+            if (num > 0) {
+//        		$("#carno").val($("#carno").val().substr(0,num-1));
+              $("#carno").val($("#carno").val().substring(0, pos - 1) + $("#carno").val().substring(pos, $("#carno").val().length));
+//                $("#carno").setSelectionRange(pos-1);
+//                console.log('删除后光标位置'+document.getElementById("carno").selectionStart);
+              document.getElementById("carno").setSelectionRange(pos - 1, pos - 1);
+//                console.log('移动后光标位置'+document.getElementById("carno").selectionStart);
+              if (num == 1) {
+                showProvince();
+              }
+              if (document.getElementById("carno").selectionStart == 0) {
+                showProvince();
+              }
+            }
+
+          } else {
+            // console.log("添加的位置" + pos);
+            if (num < 8) {
+              if (num == 1) {
+                if (jj > 9) {
+//						$("#carno").val($("#carno").val()+$(obj).text());
+                  $("#carno").val($("#carno").val().substring(0, pos) + $(obj).text() + $("#carno").val().substring(pos, $("#carno").val().length));
+                  document.getElementById("carno").setSelectionRange(pos + 1, pos + 1);
+                }
+
+              } else {
+                $("#carno").val($("#carno").val().substring(0, pos) + $(obj).text() + $("#carno").val().substring(pos, $("#carno").val().length));
+                document.getElementById("carno").setSelectionRange(pos + 1, pos + 1);
+
+//        		$("#carno").val($("#carno").val()+$(obj).text());
+              }
+
+            }
+          }
+        }
+      },
+
+      closePro() {
+        layer.closeAll();
+      },
+
+      trimStr(str) {
+        return str.replace(/(^\s*)|(\s*$)/g, "");
+      },
+
+    }
+  }
+</script>
+
+<style scoped>
+
+</style>

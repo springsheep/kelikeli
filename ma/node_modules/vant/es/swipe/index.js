@@ -1,0 +1,301 @@
+import { use } from '../utils';
+import { on, off, preventDefault } from '../utils/dom/event';
+import { TouchMixin } from '../mixins/touch';
+
+var _use = use('swipe'),
+    sfc = _use[0],
+    bem = _use[1];
+
+export default sfc({
+  mixins: [TouchMixin],
+  props: {
+    width: Number,
+    height: Number,
+    autoplay: Number,
+    vertical: Boolean,
+    initialSwipe: Number,
+    indicatorColor: String,
+    loop: {
+      type: Boolean,
+      default: true
+    },
+    touchable: {
+      type: Boolean,
+      default: true
+    },
+    showIndicators: {
+      type: Boolean,
+      default: true
+    },
+    duration: {
+      type: Number,
+      default: 500
+    }
+  },
+  data: function data() {
+    return {
+      computedWidth: 0,
+      computedHeight: 0,
+      offset: 0,
+      active: 0,
+      deltaX: 0,
+      deltaY: 0,
+      swipes: [],
+      swiping: false
+    };
+  },
+  mounted: function mounted() {
+    this.initialize();
+
+    if (!this.$isServer) {
+      on(window, 'resize', this.onResize, true);
+    }
+  },
+  activated: function activated() {
+    if (this.rendered) {
+      this.initialize();
+    }
+
+    this.rendered = true;
+  },
+  destroyed: function destroyed() {
+    this.clear();
+
+    if (!this.$isServer) {
+      off(window, 'resize', this.onResize, true);
+    }
+  },
+  watch: {
+    swipes: function swipes() {
+      this.initialize();
+    },
+    initialSwipe: function initialSwipe() {
+      this.initialize();
+    },
+    autoplay: function autoplay(_autoplay) {
+      if (!_autoplay) {
+        this.clear();
+      } else {
+        this.autoPlay();
+      }
+    }
+  },
+  computed: {
+    count: function count() {
+      return this.swipes.length;
+    },
+    delta: function delta() {
+      return this.vertical ? this.deltaY : this.deltaX;
+    },
+    size: function size() {
+      return this[this.vertical ? 'computedHeight' : 'computedWidth'];
+    },
+    trackSize: function trackSize() {
+      return this.count * this.size;
+    },
+    activeIndicator: function activeIndicator() {
+      return (this.active + this.count) % this.count;
+    },
+    isCorrectDirection: function isCorrectDirection() {
+      var expect = this.vertical ? 'vertical' : 'horizontal';
+      return this.direction === expect;
+    },
+    trackStyle: function trackStyle() {
+      var _ref;
+
+      var mainAxis = this.vertical ? 'height' : 'width';
+      var crossAxis = this.vertical ? 'width' : 'height';
+      return _ref = {}, _ref[mainAxis] = this.trackSize + "px", _ref[crossAxis] = this[crossAxis] ? this[crossAxis] + "px" : '', _ref.transitionDuration = (this.swiping ? 0 : this.duration) + "ms", _ref.transform = "translate" + (this.vertical ? 'Y' : 'X') + "(" + this.offset + "px)", _ref;
+    },
+    indicatorStyle: function indicatorStyle() {
+      return {
+        backgroundColor: this.indicatorColor
+      };
+    }
+  },
+  methods: {
+    // initialize swipe position
+    initialize: function initialize(active) {
+      if (active === void 0) {
+        active = this.initialSwipe;
+      }
+
+      clearTimeout(this.timer);
+
+      if (this.$el) {
+        var rect = this.$el.getBoundingClientRect();
+        this.computedWidth = this.width || rect.width;
+        this.computedHeight = this.height || rect.height;
+      }
+
+      this.swiping = true;
+      this.active = active;
+      this.offset = this.count > 1 ? -this.size * this.active : 0;
+      this.swipes.forEach(function (swipe) {
+        swipe.offset = 0;
+      });
+      this.autoPlay();
+    },
+    onResize: function onResize() {
+      this.initialize(this.activeIndicator);
+    },
+    onTouchStart: function onTouchStart(event) {
+      if (!this.touchable) return;
+      this.clear();
+      this.swiping = true;
+      this.touchStart(event);
+      this.correctPosition();
+    },
+    onTouchMove: function onTouchMove(event) {
+      if (!this.touchable || !this.swiping) return;
+      this.touchMove(event);
+
+      if (this.isCorrectDirection) {
+        preventDefault(event, true);
+        this.move({
+          offset: Math.min(Math.max(this.delta, -this.size), this.size)
+        });
+      }
+    },
+    onTouchEnd: function onTouchEnd() {
+      if (!this.touchable || !this.swiping) return;
+
+      if (this.delta && this.isCorrectDirection) {
+        var offset = this.vertical ? this.offsetY : this.offsetX;
+        this.move({
+          pace: offset > 0 ? this.delta > 0 ? -1 : 1 : 0,
+          emitChange: true
+        });
+      }
+
+      this.swiping = false;
+      this.autoPlay();
+    },
+    move: function move(_ref2) {
+      var _ref2$pace = _ref2.pace,
+          pace = _ref2$pace === void 0 ? 0 : _ref2$pace,
+          _ref2$offset = _ref2.offset,
+          offset = _ref2$offset === void 0 ? 0 : _ref2$offset,
+          emitChange = _ref2.emitChange;
+      var delta = this.delta,
+          active = this.active,
+          count = this.count,
+          swipes = this.swipes,
+          trackSize = this.trackSize;
+      var atFirst = active === 0;
+      var atLast = active === count - 1;
+      var outOfBounds = !this.loop && (atFirst && (offset > 0 || pace < 0) || atLast && (offset < 0 || pace > 0));
+
+      if (outOfBounds || count <= 1) {
+        return;
+      }
+
+      if (swipes[0]) {
+        swipes[0].offset = atLast && (delta < 0 || pace > 0) ? trackSize : 0;
+      }
+
+      if (swipes[count - 1]) {
+        swipes[count - 1].offset = atFirst && (delta > 0 || pace < 0) ? -trackSize : 0;
+      }
+
+      if (pace && active + pace >= -1 && active + pace <= count) {
+        this.active += pace;
+
+        if (emitChange) {
+          this.$emit('change', this.activeIndicator);
+        }
+      }
+
+      this.offset = Math.round(offset - this.active * this.size);
+    },
+    swipeTo: function swipeTo(index) {
+      var _this = this;
+
+      this.swiping = true;
+      this.resetTouchStatus();
+      this.correctPosition();
+      setTimeout(function () {
+        _this.swiping = false;
+
+        _this.move({
+          pace: index % _this.count - _this.active,
+          emitChange: true
+        });
+      }, 30);
+    },
+    correctPosition: function correctPosition() {
+      if (this.active <= -1) {
+        this.move({
+          pace: this.count
+        });
+      }
+
+      if (this.active >= this.count) {
+        this.move({
+          pace: -this.count
+        });
+      }
+    },
+    clear: function clear() {
+      clearTimeout(this.timer);
+    },
+    autoPlay: function autoPlay() {
+      var _this2 = this;
+
+      var autoplay = this.autoplay;
+
+      if (autoplay && this.count > 1) {
+        this.clear();
+        this.timer = setTimeout(function () {
+          _this2.swiping = true;
+
+          _this2.resetTouchStatus();
+
+          _this2.correctPosition();
+
+          setTimeout(function () {
+            _this2.swiping = false;
+
+            _this2.move({
+              pace: 1,
+              emitChange: true
+            });
+
+            _this2.autoPlay();
+          }, 30);
+        }, autoplay);
+      }
+    }
+  },
+  render: function render(h) {
+    var _this3 = this;
+
+    var count = this.count,
+        activeIndicator = this.activeIndicator;
+    var Indicator = this.slots('indicator') || this.showIndicators && count > 1 && h("div", {
+      "class": bem('indicators', {
+        vertical: this.vertical
+      })
+    }, [Array.apply(void 0, Array(count)).map(function (empty, index) {
+      return h("i", {
+        "class": bem('indicator', {
+          active: index === activeIndicator
+        }),
+        "style": index === activeIndicator ? _this3.indicatorStyle : null
+      });
+    })]);
+    return h("div", {
+      "class": bem()
+    }, [h("div", {
+      "ref": "track",
+      "style": this.trackStyle,
+      "class": bem('track'),
+      "on": {
+        "touchstart": this.onTouchStart,
+        "touchmove": this.onTouchMove,
+        "touchend": this.onTouchEnd,
+        "touchcancel": this.onTouchEnd
+      }
+    }, [this.slots()]), Indicator]);
+  }
+});

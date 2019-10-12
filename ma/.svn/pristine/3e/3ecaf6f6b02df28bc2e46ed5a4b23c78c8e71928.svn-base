@@ -1,0 +1,35 @@
+<template>
+    <preload></preload>
+    <index></index>
+</template>
+
+<script>
+    import Preload from "./preload";
+    import Index from "../Index";
+    export default {
+        name: "Head",
+      components: {Index, Preload},
+      created(){
+        const data = {
+          "buildingId": this.buildingId
+        };
+        const options = {
+          method: 'POST',
+          headers: {'content-type': 'application/json'},
+          data: qs.parse(data),
+          url: 'visit/visitor/index'
+        };
+        this.axios(options).then((response) => {
+          // console.log(response.data.data)
+          // this.msg = response.data.data;
+
+        }).catch(function (error) {
+          console.log(error);
+        });
+      }
+    }
+</script>
+
+<style scoped>
+
+</style>

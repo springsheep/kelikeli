@@ -1,0 +1,247 @@
+<template>
+    <div class="container" style="width: 100%">
+        <div class="head"
+             style="width: 92%;display: flex;justify-content: space-between;font-size: .638rem;padding: .126rem .638rem">
+            <div style="width: 18%;line-height: 1.277rem">类型<span class="pp">*</span></div>
+
+            <div style="width: 70%;margin-right: .71rem" class="anniu">
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==1?true:false}"
+                      @click="choose1(1)" :id="1">停水通知</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==2?true:false}"
+                      @click="choose1(2)" :id="2">停电通知</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==3?true:false}"
+                      @click="choose1(3)" :id="3">断网通知</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==4?true:false}"
+                      @click="choose1(4)" :id="4">电梯维修</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==5?true:false}"
+                      @click="choose1(5)" :id="5">装修维护</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==6?true:false}"
+                      @click="choose1(6)" :id="6">消防演习</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==7?true:false}"
+                      @click="choose1(7)" :id="7">防鼠灭蚊</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==8?true:false}"
+                      @click="choose1(8)" :id="8">办卡通知</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==9?true:false}"
+                      @click="choose1(9)" :id="9">费用催款</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==10?true:false}"
+                      @click="choose1(10)" :id="10">失物招领</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==11?true:false}"
+                      @click="choose1(11)" :id="11">寻物启事</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==12?true:false}"
+                      @click="choose1(12)" :id="12">福利活动</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==13?true:false}"
+                      @click="choose1(13)" :id="13">消息简报</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==14?true:false}"
+                      @click="choose1(14)" :id="14">温馨提示</span>
+                <span style="width: 31%;display: inline-block" :class="{xuanze:num==15?true:false}"
+                      @click="choose1(15)" :id="15">其他杂项</span>
+            </div>
+        </div>
+        <div class="title"
+             style="line-height: 2.128rem ;width: 92%;display: flex;justify-content: space-between;font-size: .638rem;padding: 0 .638rem ; margin-top: .638rem;border-bottom: .1px solid #f1f1f1;border-top: .1px solid #f1f1f1;">
+            <div style="width: 20%;line-height: 2.128rem;z-index: 1">标题<span class="pp">*</span></div>
+            <div style="width: 75%">
+                <input type="text" style="line-height: 1rem;width: 75%;border: 0" placeholder="请输入标题" v-model="biaoti"
+                       maxlength="15">
+                <span style="font-size: .511rem;margin-left: 1rem">{{num1}}/15</span>
+            </div>
+        </div>
+        <!--<div class="title"-->
+        <!--style="line-height: 2.128rem ;width: 92%;display: flex;justify-content: space-between;font-size: .638rem;padding: 0 .638rem ;border-bottom: .5px solid #f1f1f1;">-->
+        <!--<div style="width: 15%;line-height: 2.128rem;z-index: 1">接收人<span class="pp">*</span></div>-->
+        <!--<div style="width: 81%">-->
+        <!--<el-checkbox v-model="checked1" style="line-height: 2rem;font-size: .638rem" @change="choose2">全体入住公司-->
+        <!--</el-checkbox>-->
+        <!--<el-checkbox v-model="checked2" style="line-height: 2rem;font-size: .638rem" @change="choose3">物业人员-->
+        <!--</el-checkbox>-->
+        <!--</div>-->
+        <!--</div>-->
+        <div class="title"
+             style="height: 10.5rem ;width: 92%;display: flex;justify-content: space-between;font-size: .638rem;padding: 0 .638rem ; margin-top: .638rem;border-bottom: .5px solid #f1f1f1;">
+            <!--<div style="width: 20%;z-index: 1">正文<span class="pp">*</span></div>-->
+            <div style="width: 100%">
+        <textarea type="text" ref="count" name="" clos="40" rows="13" style="width: 100%;border: 0;resize: none"
+                  placeholder="输入正文内容"
+                  v-model="content">  </textarea>
+                <!--<editor-elem :catchData="ppp"></editor-elem>-->
+
+            </div>
+        </div>
+        <div @click="submit" class="save"
+             style="width: 92%;background-color: #1a96d4;color: #f1f1f1;font-size: .767rem;text-align: center;margin: .9rem auto 0;line-height: 1.913rem;border-radius: .213rem;">
+            发布
+        </div>
+    </div>
+</template>
+
+<script>
+    import {Toast} from 'mint-ui';
+    import {MessageBox} from 'mint-ui';
+    import EditorElem from "./editorElem";
+
+    export default {
+        name: "NewTongzhi",
+        components: {EditorElem},
+        data() {
+            return {
+                checked1: '',
+                checked2: '',
+                num: '1',
+                content: '',
+                biaoti: '',//要输入的标题
+                num1: 0,//输入标题的字数
+                buildingId: localStorage.getItem('WbuildingId'),
+                mobilePhoneNo: localStorage.getItem('mobilePhoneNo'),
+                noticeTitle: '',
+                noticeType: 0,
+                noticeReceiver: '',
+                noticeContent: '',
+                a: 0, b: 0,//判断发送的人类型
+            }
+        },
+        watch: {
+            num() {
+                if (this.num == '2') {
+                    this.content = '各入驻公司：\n' +
+                        '     \n' +
+                        '       接电力局通知，将于2019年6月26日（星期三）上午8：30-16:30对江四开G23间隔至湘人II开G21间隔电缆迁改，施工期因安全需要，将进行停电，施工结束后及时恢复供电。\n' +
+                        ' \n' +
+                        '       电力故障报修电话: 5122 8669；\n' +
+                        '       电力台区经理电话: 137-5085-4677;\n' +
+                        '       物业24小时咨询电话:86875255;\n' +
+                        '       停电停水范围：1幢至17幢，所有高层业主。 \n' +
+                        ' \n' +
+                        '                                                       XX物业管理中心\n' +
+                        '                                                       2019年6月25日'
+                } else if (this.num == '5') {
+                    this.content = '各入驻公司：\n' +
+                        ' \n' +
+                        '        按照物业统一规划，本大厦4号楼1楼，将于2019年06月22日（星期六）-2019年06月24日（星期一）三天进行敲墙（装修）作业。如果对贵司工作造成影响，敬请理解！\n' +
+                        ' \n' +
+                        '                                                       XX物业管理中心\n' +
+                        '                                                       2019年07月03日'
+                } else if (this.num == '14') {
+                    this.content = '各入驻公司：\n' +
+                        ' \n' +
+                        '        暑假已至，很多员工为方便看管，上班时将孩子带入写字楼。写字楼内有各类设备，电器等，小孩子因好奇心强，且有些行为不知深浅，可能导致火灾、坠亡等一些无法预测的危险。\n' +
+                        '        为了维持写字楼的正常运行，为了保护未成年人的人身安全，请勿携带小孩子进入写字楼，若因实际需要确需陪同，请各监护人认真履行职责，看管好未成年人，请勿让其离开自己的视线。\n' +
+                        ' \n' +
+                        '        感谢您的配合，祝愿小朋友在安全健康的环境下快乐成长。\n' +
+                        ' \n' +
+                        ' \n' +
+                        '                                                       XX物业管理中心\n' +
+                        '                                                       2019年07月03日'
+                } else {
+                    this.content = "请您输入内容"
+                }
+            },
+            biaoti() {
+                this.num1 = this.biaoti.length;
+                if (this.num1 >= 15) {
+                    this.num1 = 15
+                }
+            }
+        },
+        methods: {
+
+            choose2(e) {
+                if (e == true) {
+                    this.a = 1
+                } else {
+                    this.a = 0
+                }
+            },
+            choose3(e) {
+                if (e == true) {
+                    this.b = 1
+                } else {
+                    this.b = 0
+                }
+            },
+            //选择类型
+            choose1(i, e) {
+                this.num = i;
+                this.noticeType = i - 1;
+            },
+            //点击提交
+            submit() {
+                this.noticeContent = this.content;
+                this.noticeTitle = this.biaoti;
+                // if (this.a == 1 && this.b == 0) {
+                //     this.noticeReceiver = 0;
+                //
+                // } else if (this.a == 0 && this.b == 1) {
+                //     this.noticeReceiver = 1;
+                // } else {
+                //     this.noticeReceiver = 2;
+                // }
+                if (this.biaoti == '') {
+                    MessageBox('提示', '请填写标题');
+                    return false;
+                }
+
+                // else if(this.a==0&&this.b==0){
+                //     MessageBox('提示', '请选择接收人');
+                //     return false;
+                // }
+                else if (this.content == '') {
+                    MessageBox('提示', '请填写通知内容请填写标题');
+                    return false;
+                } else {
+                    console.log(this.mobilePhoneNo, localStorage.getItem('WmobilePhoneNo'), localStorage);
+                    const data = {
+                        "buildingId": this.buildingId,
+                        "mobilePhoneNo": this.mobilePhoneNo,
+                        "noticeTitle": this.noticeTitle,
+                        "noticeContent": this.noticeContent,
+                        "noticeType": this.noticeType,
+                        "noticeReceiver": 0,
+                    };
+                    const options = {
+                        method: 'POST',
+                        headers: {'content-type': 'application/json', 'token': localStorage.getItem('WToken')},
+                        data: data,
+                        url: '/visit/building/publishNotice'
+                    };
+                    this.axios(options).then((response) => {
+                        if (response.data.state == 1) {
+                            Toast('发布成功');
+                            this.$router.push({path: '/wuye/property'});
+                        } else {
+                            Toast(response.data.retMsg)
+                        }
+                    }).catch((err) => {
+                        Toast(err)
+                    })
+                }
+
+
+            }
+        },
+        mounted() {
+        }
+    }
+</script>
+
+<style scoped lang="scss">
+    .xuanze {
+        background-color: #1a96d4;
+        color: #ffffff;
+        z-index: 10;
+        border: 0;
+    }
+
+    .pp {
+        color: #e54747;
+    }
+
+    .anniu {
+        span {
+            line-height: 1.277rem;
+            border: .5px solid #999999;
+            text-align: center;
+            margin-top: .213rem;
+            border-radius: .113rem;
+        }
+    }
+</style>

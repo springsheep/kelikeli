@@ -1,0 +1,63 @@
+import _mergeJSXProps from "@vue/babel-helper-vue-jsx-merge-props";
+import { use } from '../utils';
+import { inherit } from '../utils/functional';
+import Cell from '../cell'; // Types
+
+var _use = use('coupon-cell'),
+    sfc = _use[0],
+    bem = _use[1],
+    t = _use[2];
+
+function formatValue(props) {
+  var coupons = props.coupons,
+      chosenCoupon = props.chosenCoupon,
+      currency = props.currency;
+  var coupon = coupons[chosenCoupon];
+
+  if (coupon) {
+    var value = coupon.denominations || coupon.value;
+    return "-" + currency + (value / 100).toFixed(2);
+  }
+
+  return coupons.length === 0 ? t('tips') : t('count', coupons.length);
+}
+
+function CouponCell(h, props, slots, ctx) {
+  var valueClass = props.coupons[props.chosenCoupon] ? 'van-coupon-cell--selected' : '';
+  var value = formatValue(props);
+  return h(Cell, _mergeJSXProps([{
+    "class": bem(),
+    "attrs": {
+      "value": value,
+      "title": props.title || t('title'),
+      "border": props.border,
+      "isLink": props.editable,
+      "valueClass": valueClass
+    }
+  }, inherit(ctx, true)]));
+}
+
+CouponCell.model = {
+  prop: 'chosenCoupon'
+};
+CouponCell.props = {
+  title: String,
+  coupons: Array,
+  currency: {
+    type: String,
+    default: '¥'
+  },
+  border: {
+    type: Boolean,
+    default: true
+  },
+  editable: {
+    type: Boolean,
+    default: true
+  },
+  chosenCoupon: {
+    type: Number,
+    default: -1
+  }
+};
+export default sfc(CouponCell);

@@ -1,0 +1,202 @@
+<template>
+  <div class="">
+
+   <div class="myTitle">
+         <div class='imgBox'><img src="../../assets/images/logo.png" alt=""></div>
+         <h2>{{msg}}</h2>
+     </div>
+     <div class="geduan"></div>
+
+   <!-- 列表开始 -->
+     <div class="list">
+        <ul>
+          <li>
+            <h4>拜访时间：</h4>
+            <p>2015-08-03 11:02:59</p>
+          </li>
+          <li>
+            <h4>拜访人：</h4>
+            <p>王小二</p>
+          </li>
+          <li>
+            <h4>联系方式：</h4>
+            <p>13687567090</p>
+          </li>
+          <li>
+            <h4>拜访单位：</h4>
+            <p>杭州可有科技有限公司</p>
+          </li>
+          <li>
+            <h4>拜访事由：</h4>
+            <p>商务</p>
+          </li>
+          
+        </ul>
+     </div>
+     <!-- 列表结束 -->
+     <div class="anniu">
+        <mt-button type="primary" class="agreen">同意</mt-button>
+        <mt-button type="danger" class="agreen no">拒绝</mt-button>
+     </div>
+     <p class="foot">本页面技术由<i>易渡</i>提供</p>
+    <!-- banner广告图开始 -->
+      <!-- <div class="banner">
+        <img src="../assets/images/banner01.jpg" alt="" srcset="">
+      </div> -->
+          <!-- 轮播图区域 -->
+    <swiper ></swiper>
+      
+   
+  </div>
+</template>
+
+<script type="text/javascript">
+import swiper from "../common/swiper";
+export default {
+    name:'Shenhe',
+  data() {
+    return {
+      msg:'信雅达科技大厦',
+      lunbotuList: []
+    }
+  },
+  created() {
+    this.getLunbotu();
+  },
+  methods: {
+  },
+  components: {
+    swiper
+  }
+}
+</script>
+
+<style lang="scss" scoped>
+.anniu{
+  margin-top: 27px;
+    display: flex;
+  justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    .agreen{
+  width: 150px;
+  height: 45px;
+   font-size: 16px;
+}
+.no{margin-left: 10px;}
+}
+
+.foot{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    i{
+        color: #4595d0;
+    }
+}
+.banner img{
+ width: 100%;
+  height: 100%;
+}
+
+.myHeader{
+  background: #f8f8f8;
+  h2{
+  text-align: center;
+  font-size: 17px;
+  font-weight: normal
+}
+ .mint-button{
+  color: #2c2c2c;
+}
+.mint-header-title{
+  color: #030303;
+  font-size: 16px;
+}
+}
+.list li{
+  border-bottom:#dddddd solid 1px;
+  height: 49px;
+  line-height: 49px;
+  padding-left: 15px;
+}
+.list h4{
+  width: 80px;
+  text-align: left;
+  display: inline-block;
+  font-size: 14px;
+  color: #7a7a7a;
+  margin-right: 15px;
+  font-weight: normal;
+}
+.list h4 i{
+  color: #f41f1f;
+  margin-right: 2px;
+}
+.list p{
+   display: inline-block;
+   color: #333;
+   font-size: 14px;
+}
+.list p span{
+  width: 40px;
+  height: 30px;
+  border: #999 solid 1px;
+  display: inline-block;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  margin-right: 5px;
+  color: #666;
+  font-size: 14px;
+}
+.list p .active{
+  background-color: #1a96d4;
+  color: #fff;
+  border: #1a96d4 solid 1px;
+}
+.list .more{width: 115px}
+
+.list .jiantou{
+  width: 14px;
+  height:8px;
+  display:block;
+  /* background-size: cover; */
+  float:right;
+  margin-right: 15px;
+  margin-top:-28px;
+}
+.myTitle{
+  padding-bottom: 30px;
+  h2{
+    text-align: center;
+    font-size: 17px;
+    font-weight: normal;
+  }
+}
+.imgBox{
+  width: 80px;
+  height: 80px;
+  background: green;
+  
+  margin: 20px auto;
+  
+  
+}
+
+.mint-header .mint-button{
+  color: #2c2c2c;
+}
+.mint-header-title{
+  color: #030303;
+  font-size: 16px;
+}
+.geduan{
+  height: 15px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+</style>
