@@ -1,0 +1,300 @@
+.container{
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Microsoft YaHei", sans-serif;
+  min-width: 1200px;
+  .header{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff;
+    > div{
+      max-width: 65%;
+      height: 100%;
+      //max-width: 1200px;
+      min-width: 800px;
+      margin: auto;
+      .header-left{
+        margin-right: 100px;
+        font-size: 32px;
+        color: #EE7621;
+        >img:nth-of-type(1){
+          width: 40px;
+          margin-right: 15px;
+        }
+        >img:nth-of-type(2){
+          width: 120px;
+        }
+        >span{
+          line-height: 48px;
+        }
+      }
+      .header-right{
+        width: 500px;
+        color: #666;
+        >div{
+          text-align: center;
+          margin-right: 80px;
+          line-height: 46px;
+          //font-weight: bold;
+          font-weight: 600;
+          font-size: 20px;
+          border-bottom: 3px solid transparent;
+        }
+      }
+    };
+  }
+
+  .head_bk{
+    width: 100%;
+    height: 400px;
+    background-image: url(../../assets/img/bk.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    >.bkBox{
+      width: 1030px;
+      height: 100%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      >div{
+        flex: 1;
+        display: flex;
+        //align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .bk-left{
+        color: #FFFFFF;
+        >img{
+          width: 455px;
+          margin-bottom: 35px;
+        }
+        >div:nth-of-type(1){
+          margin-bottom: 50px;
+          font-size: 24px;
+          line-height: 36px;
+          width: 450px;
+        }
+        >div:nth-of-type(2){
+          font-size: 30px;
+          >span{
+            font-weight: 600;
+          }
+          >span:nth-of-type(1){
+            margin-right: 53px;
+          }
+        }
+      }
+      .bk-right{
+        display: flex;
+        >img{
+          width: 455px;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+
+  .middle1{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    .middle1-content{
+      width: 760px;
+      margin: auto;
+      h2{
+        background:url(../../assets/img/bkh2.png) no-repeat center;
+        line-height: 120px;
+        text-align: center;
+        font-size: 25px;
+      }
+      .middle1-list{
+        display: flex;
+        display: -webkit-flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        >div{
+          width: 25%;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          margin-bottom: 30px;
+          cursor: pointer;
+          >img{
+            width: 120px;
+          }
+          >p{
+            line-height: 80px;
+            font-size: 19px;
+          }
+        }
+        >div:hover{
+          color: #EE7621;
+        }
+      }
+    }
+  }
+  .middle2{
+    background-color: #f1f1f1;
+  }
+  .middle3{
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 90px;
+    .middle3-content{
+      max-width: 1200px;
+      margin: auto;
+      padding: 0 30px;
+      >h2{
+        background:url(../../assets/img/bkh2.png) no-repeat center;
+        line-height: 120px;
+        text-align: center;
+        font-size: 25px;
+      }
+      .middle3-list{
+        img{
+          width: 420px;
+          height: 300px;
+        }
+        >div:nth-of-type(2){
+          position: relative;
+          //width: 725px;
+          height: 220px;
+          color: #666666;
+          flex: 1;
+          //background-color: #f5f5f5;
+          background: url(../../assets/img/selfBk.png)no-repeat 0 0/100% 100%;
+          margin-left: 6%;
+          padding: 40px;
+          padding-left: 60px;
+          >div:nth-of-type(1){
+            font-size: 25px;
+            color: #EE7621;
+            margin-bottom: 25px;
+          }
+          >div:nth-of-type(2){
+            font-size: 16px;
+            line-height: 25px;
+            font-weight: bold;
+          }
+          >div:nth-of-type(3){
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+            color: #999999;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+.checked{
+  border-bottom: 3px solid #EE7621!important;
+  color: #EE7621!important;
+}
+.middle1-list2{
+  >div:hover{
+    color: #43c8ab!important;
+  }
+}
+.middle4{
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 90px;
+  background-color: #f1f1f1;
+  .middle4-content{
+    width: 837px;
+    margin: auto;
+    >h2{
+      background:url(../../assets/img/bkh2.png) no-repeat center;
+      line-height: 120px;
+      text-align: center;
+      font-size: 25px;
+    }
+    >.middle4-list{
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-between;
+      flex-direction: row;
+      flex-wrap: wrap;
+      >div{
+        width: 16.66666%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 80px;
+        cursor: pointer;
+        >img{
+          width: 40px;
+        }
+        >span{
+          font-size: 15px;
+          margin-left: 8px;
+          font-weight: 600;
+        }
+      }
+      >div:hover{
+        color: #EE7621;
+      }
+    }
+    .middle4-list:after {
+      content: "";
+      flex: auto;
+    }
+  }
+}
+.footer1{
+  width: 100%;
+  padding: 60px 0;
+}
+.footer1-content{
+  max-width: 1200px;
+  margin: auto;
+  .footer1-left{
+    >div{
+      margin-right: 90px;
+      >h2{
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+      >p{
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+    >div:nth-of-type(1),div:nth-of-type(2){
+      >p:hover{
+        color: #EE7621;
+        cursor: pointer;
+      }
+    }
+  }
+  .footer1-right{
+    margin-left: auto;
+    img{
+      width: 100px;
+    }
+    >div{
+      margin-left: 40px;
+    }
+    >.right1{
+      font-size: 18px;
+      line-height: 30px;
+      margin-right: 20px;
+      >p{
+        font-weight: 600;
+      }
+    }
+  }
+}
+.footer2{
+  line-height: 80px;
+  font-size: 14px;
+  border-top: 2px solid #666666;
+  text-align: center;
+}
