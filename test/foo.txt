@@ -1,0 +1,230 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><script async="" src="https://fpcy.jiangxi.chinatax.gov.cn:82/WebQuery/yzmQuery?callback=jQuery1102009427533415793321_1570614848680&amp;fpdm=3600192130&amp;fphm=02236855&amp;r=0.5536455291501337&amp;v=V2.0.00_001&amp;nowtime=1570614849230&amp;publickey=43CAA81D6E4834EE0AF301BC35BF4E52&amp;_=1570614848681"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>国家税务总局全国增值税发票查验平台</title>
+    <meta name="keywords" content="">
+	<meta http-equiv="pragma" content="no-cache"> 
+	<meta http-equiv="Cache-Control" content="no-cache, must-revalidate"> 
+	<meta http-equiv="expires" content="0">
+    <meta name="format-detection" content="telephone=no">
+    <meta property="wb:webmaster" content="">
+    <script language="javascript">
+    document.write("<l" + "ink rel='stylesheet' type='text/css' href='css/common.css?"+Math.random()+"' />");
+    document.write("<l" + "ink rel='stylesheet' type='text/css' href='css/jquery.alerts.css?"+Math.random()+"' media='screen' />");
+    document.write("<l" + "ink rel='stylesheet' type='text/css' href='css/bootstrap-datepicker.min.css' />");
+
+
+
+      if(top != self){
+          location.href = "about:blank";
+      }
+
+  
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/jquery-1.10.2.min.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/jquery.PrintArea.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/jquery.alerts.js?"+Math.random()+"'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/jquery.md5.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/showModalDialog.js?"+Math.random()+"'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/aes.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/pbkdf2.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/AesUtil.js'></scr"+"ipt>");  
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/common.js?"+Math.random()+"'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/validate.js?"+Math.random()+"'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/result.js?"+Math.random()+"'></scr"+"ipt>"); 
+  document.write("<s"+"cript type='text/javascript' language='javascript' src='js/bootstrap-datepicker.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript type='text/javascript' language='javascript' src='js/bootstrap-datepicker.zh-CN.min.js'></scr"+"ipt>"); 
+  
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/m.q.d.min.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/q.b.a.min.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/s.d.b.min.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/t.q.b.min.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/t.q.d.min.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/t.q.e.min.js'></sc"+"ript>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/t.q.z.min.js'></scr"+"ipt>"); 
+</script><link rel="stylesheet" type="text/css" href="css/common.css?0.6838736348219419"><link rel="stylesheet" type="text/css" href="css/jquery.alerts.css?0.6739920041830048" media="screen"><link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css"><script charset="utf-8" type="text/javascript" src="js/jquery-1.10.2.min.js"></script><script charset="utf-8" type="text/javascript" src="js/jquery.PrintArea.js"></script><script charset="utf-8" type="text/javascript" src="js/jquery.alerts.js?0.7831120248355081"></script><script charset="utf-8" type="text/javascript" src="js/jquery.md5.js"></script><script charset="utf-8" type="text/javascript" src="js/showModalDialog.js?0.7462106775331065"></script><script charset="utf-8" type="text/javascript" src="js/aes.js"></script><script charset="utf-8" type="text/javascript" src="js/pbkdf2.js"></script><script charset="utf-8" type="text/javascript" src="js/AesUtil.js"></script><script charset="utf-8" type="text/javascript" src="js/common.js?0.7730065223846965"></script><script charset="utf-8" type="text/javascript" src="js/validate.js?0.48643088638148124"></script><script charset="utf-8" type="text/javascript" src="js/result.js?0.7115360569480049"></script><script type="text/javascript" language="javascript" src="js/bootstrap-datepicker.js"></script><script type="text/javascript" language="javascript" src="js/bootstrap-datepicker.zh-CN.min.js"></script><script charset="utf-8" type="text/javascript" src="js/m.q.d.min.js"></script><script charset="utf-8" type="text/javascript" src="js/q.b.a.min.js"></script><script charset="utf-8" type="text/javascript" src="js/s.d.b.min.js"></script><script charset="utf-8" type="text/javascript" src="js/t.q.b.min.js"></script><script charset="utf-8" type="text/javascript" src="js/t.q.d.min.js"></script><script charset="utf-8" type="text/javascript" src="js/t.q.e.min.js"></script><script charset="utf-8" type="text/javascript" src="js/t.q.z.min.js"></script>
+<noscript>
+  
+     <div class="timeline">
+      <div class="timeline_tip">
+                <h3>尊敬的纳税人：</h3>
+                <p>请您确认当前浏览器是否禁用了js相关脚本，禁用js相关脚本会导致“增值税发票查验平台”功能无法正常使用。如您禁用了js相关脚本，请更改浏览器设置启用相关脚本后，重新打开浏览器，登录本平台。</p>
+            </div>
+      <div class="timeline-date">
+        <ul>
+          <div class="second" style="position: relative;">
+            <span>具体浏览器设置修改步骤（以ie浏览器为例）：</span>
+          </div>
+          <li class="clearfix">
+            <h3>1<span>步骤</span></h3>
+            <dl class="right">
+              <span>点击ie浏览器工具菜单internet选项命令；</span>
+            </dl>
+          </li>
+          <li class="clearfix">
+            <h3>2<span>步骤</span></h3>
+            <dl class="right">
+              <span>点击安全选项卡，选中internet区域，点击自定义级别按钮；</span>
+            </dl>
+          </li>
+          <li class="clearfix">
+            <h3>3<span>步骤</span></h3>
+            <dl class="right">
+              <span>设置列表找到脚本项，其中java小程序脚本和活动脚本都设置为启用，点击确定；</span>
+            </dl>
+          </li>
+          <li class="clearfix">
+            <h3>4<span>步骤</span></h3>
+            <dl class="right">
+              <span>点击确定关闭internet选项对话框；</span>
+            </dl>
+          </li>
+          <li class="clearfix">
+            <h3>5<span>步骤</span></h3>
+            <dl class="right">
+              <span>重启浏览器。</span>
+            </dl>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+</noscript>
+<script>
+  var browser = "";
+  browser = getBrowser();
+    function pad(num, n) { 
+       var len = num.toString().length; 
+       while(len < n) { 
+          num = "0" + num; 
+          len++; 
+      } 
+      return num; 
+  } 
+
+  var jsname = ""; 
+</script>
+
+</head>
+
+<body onload="arw();" style="">
+    <div id="pageshow" style="">
+    <div id="top"> 
+<div id="headerbox"><div id="header">
+  <div class="logo"><img src="images/cy_logo_title.png"></div>
+  <span id="Hotnews">支持增值税专用发</span>
+</div>
+<div id="navbox">
+    <div id="nav">
+      <ul class="nav_main">
+        <li> <a href="index.html" class="wid100">首页</a> </li>
+        <li class="nav_ge"></li>
+        <li> <a href="#" class="hasSub">发票常识</a>
+          <ul>
+             <li><a href="fpcs/fpzl.html">发票种类</a></li>
+            <li><a href="fpcs/fpbs.html">发票版式</a></li>
+            <li><a href="fpcs/fpzwsbff.html">防伪措施</a></li>
+          </ul>
+        </li>
+        <li class="nav_ge"></li>
+        <li> <a href="cjwt.html" class=" ">常见问题</a>
+        </li>
+        <li class="nav_ge"></li>
+        <li> <a href="czsm.html" class=" ">操作说明</a> </li>
+        <li class="nav_ge"></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<script>
+$(document).ready(function(){
+	$('.nav_main > li').bind('mouseenter', menu_open);
+	$('.nav_main > li').bind('mouseleave',  menu_close);
+  shownew();
+});
+</script> </div>
+    
+    <div id="content2" class="pad_t_50 clearfix" style="">
+      <div class="ktsm" id="ktsm_tip" style="display: block;"><p><b>提示：</b>您使用的是内核为谷歌 77版本浏览器，建议使用内核为谷歌 55版本浏览器。同时，请参照操作说明安装根证书。</p><span class="close_ktsm"></span></div>
+        <div class="sm_box">
+            <a href="fpcysm.html" class="sm_btn sm_btn1">发票查验说明<span class="arrow-right"></span></a>
+            <a href="cjwt/fpjgsm.html" class="sm_btn sm_btn2">查验结果说明<span class="arrow-right"></span></a>
+            <a href="fpcs/fpzwsbff.html" class="sm_btn sm_btn3">发票真伪识别方法<span class="arrow-right"></span></a>
+            <div class="cont_ps">
+             <p><span class="font_red">1、<a href="zdaz.html">首次查验前请点此安装根证书。</a></span><br>2、当日开具发票当日可查验（增值税发票管理系统2.0版上线省份）。 <br>3、每份发票每天最多可查验5次。<br>4、可查验最近1年内增值税发票管理新系统开具的发票。<br>5、纳税咨询服务，可拨打<span class="font_red">12366</span>。<br> <span class="font_red">6、如遇IE8浏览器无法查验，请更换谷歌浏览器或升级操作系统。</span></p>
+  
+         </div>
+      </div>
+      <table border="0" class="comm_table2 fr">
+          <tbody><tr>
+            <td class="align_right2"><span class="font_red">*</span>发票代码：</td>
+            <td><input type="text" id="fpdm" autocomplete="off"></td>
+            <td width="200"><div id="fpdmjy" class="tip_common_right">&nbsp;</div></td>
+        </tr>
+        <tr>
+            <td class="align_right2"><span class="font_red">*</span>发票号码：</td>
+            <td><input type="text" id="fphm" maxlength="8" autocomplete="off"></td>
+            <td><div id="fphmjy" class="tip_common_right">&nbsp;</div></td>
+        </tr>
+        <tr>
+            <td class="align_right2"><span class="font_red">*</span>开票日期：</td>
+            <td>
+              <label>
+                <input type="text" id="kprq" class="form-control" maxlength="8" value="YYYYMMDD" style="color: rgb(85, 85, 85);" autocomplete="off"> 
+            </label>     
+        </td>
+        <td><div id="kprqjy" class="tip_common_right">&nbsp;</div></td>
+    </tr>
+    
+    <tr>
+        <td class="align_right2"><span class="font_red">*</span><span id="context">开具金额(不含税)：</span></td>
+        <td><input type="text" id="kjje" autocomplete="off" maxlength="20"></td>
+        <td><div id="kjjejy" class="tip_common_right">&nbsp;</div></td>
+    </tr>
+
+    <tr>
+        <td class="align_right2"><span class="font_red">*</span>验证码：</td>
+        <td><input type="text" style="color:#999999" value="请输入验证码" id="yzm" autocomplete="off">
+
+      </td>
+      <td id="yzminfo" style="font-size: 14px;"></td>
+  </tr>
+  <tr>
+      <td>&nbsp;</td>
+      <td id="imgarea"><div><a href="javascript:void(0);"><img width="120" height="50" src="images/code.png" id="yzm_img" style="cursor: pointer; vertical-align: top; display: none;">
+       <img width="120" height="50" src="images/code.png" id="yzm_unuse_img" style="cursor: pointer; vertical-align: top;"></a><div style="float:right;margin-right: 20px;margin-top: 10px;"><span class="tip_yzm">点击图片刷新</span></div></div></td>
+       <td>&nbsp;</td>
+   </tr>
+   <tr>
+    <td colspan="3">
+        <div class="comm_btn_div2 clearfix"> 
+          <button class="gray_button" style="cursor: default;" id="uncheckfp" disabled="true">查 验</button>
+          <button class="blue_button" onmousemove="this.className='green_button';" onmouseout="this.className='blue_button';" id="checkfp" style="display: none;">查 验</button> 
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button class="blue_button" onmousemove="this.className='green_button';" onmouseout="this.className='blue_button';" id="reset">重 置</button></div>
+      </td>
+  </tr>
+</tbody></table> 
+
+</div>
+<div id="foot"> 
+<div id="footerbox">
+<div id="footer">
+  <p>本查询由国家税务总局电子税务管理中心提供<!--研发单位：长城计算机软件与系统有限公司--></p>
+  <p>版本：2.0.00&nbsp;&nbsp;&nbsp;&nbsp;支持火狐（50.1）、谷歌（55.0）、IE8以上版本浏览器&nbsp;&nbsp;&nbsp;&nbsp;建议分辨率：1280*768</p>
+</div></div> </div>
+
+<div id="cover" style="width: 800px; height: 900px;"></div>
+<div id="floatwin">
+</div>
+<div id="floatwin1">
+</div>
+</div>
+<script language="javascript">
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/eab23.js'></scr"+"ipt>"); 
+  document.write("<s"+"cript charset='utf-8' type='text/javascript' src='js/indexfunc.js'></scr"+"ipt>");
+  document.write("<s" + "cript charset='utf-8' type='text/javascript' src='js/90a1c.js'></scr" + "ipt>");
+
+</script><script charset="utf-8" type="text/javascript" src="js/eab23.js"></script><script charset="utf-8" type="text/javascript" src="js/indexfunc.js"></script><script charset="utf-8" type="text/javascript" src="js/90a1c.js"></script>
+
+<area href="/pepp4_thunder" style="display:none">
+</body></html>
