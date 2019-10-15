@@ -40,7 +40,7 @@ import kaka_changebinding from '../components/kaka_changebinding'//挪车记录
 import kaka_changeinfo from '../components/kaka_changeinfo'//更改
 import kaka_loading from '../components/kaka_loding'
 import kaka_settime from '../components/kaka_settime'//设置妨碍骚扰的时间
-
+import kaka_crowd_funding from '../components/kaka_crowd_funding'//众筹
 import axios from 'axios'
 import Index from "../components/Index";
 
@@ -79,6 +79,8 @@ const router = new Router({
     {path: '/kaka_moreservice', component: kaka_moreservice, meta: {index: 7, title: '更多服务'}},
     // {path: '/kaka_moreservice/:organizationId', name: 'organizationid',component: kaka_moreservice, meta: {index: 7, title: '更多服务'}},
     {path: '/kaka_RiskReport', component: kaka_RiskReport, meta: {index: 7.1, title: '出险报案'}},
+    {path: '/kaka_crowd_funding', component: kaka_crowd_funding, meta: {index: 7.1, title: '众筹平台'}},
+
     {path: '/kaka_EmergencyAlarm', component: kaka_EmergencyAlarm, meta: {index: 7.2, title: '急救报警'}},
     {path: '/kaka_activity', component: kaka_activity, meta: {index: 7.3, title: '专题活动'}},
     {path: '/kaka_addedservices', component: kaka_addedservices, meta: {index: 7.4, title: '增值服务'}},
@@ -177,7 +179,6 @@ router.beforeEach((to, from, next) => {
       // 从链接进入
     } else {
       //点击进入
-      console.log(to.query.organizationId)
       sessionStorage.setItem('organizationId', to.query.organizationId)
     }
   }
