@@ -38,7 +38,7 @@ import kaka_feedback from '../components/kaka_feedback'//反馈留言
 import kaka_CarMovingRecord from '../components/kaka_CarMovingRecord'//挪车记录
 import kaka_changebinding from '../components/kaka_changebinding'//挪车记录
 import kaka_changeinfo from '../components/kaka_changeinfo'//更改
-
+import kaka_crowd_funding from '../components/kaka_crowd_funding'//众筹
 import kaka_settime from '../components/kaka_settime'//设置妨碍骚扰的时间
 import axios from 'axios'
 
@@ -69,6 +69,7 @@ const router = new Router({
       component: kaka_VehicleownerWechat,
       meta: {index: 100, title: '被挡人'}
     },
+    {path: '/kaka_crowd_funding', component: kaka_crowd_funding, meta: {index: 7.1, title: '众筹平台'}},
     {path: '/kaka_movecarmodule', component: kaka_movecarmodule, meta: {index: 2.1, title: '更改主题'}},
     {path: '/kaka_buypicc', component: kaka_buypicc, meta: {index: 6}},
     {path: '/kaka_moreservice', component: kaka_moreservice, meta: {index: 7, title: '更多服务'}},
