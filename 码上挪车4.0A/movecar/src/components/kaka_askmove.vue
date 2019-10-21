@@ -39,10 +39,6 @@
         <img src="../assets/help.png" width="93.4%" class="bounceIn animated"/>
       </div>
     </div>
-    <footer v-show="hideshow">
-      <div>{{bindcarinfo.copyrightZh}}</div>
-      <div style="color: #999999">{{bindcarinfo.copyrightEn}}</div>
-    </footer>
     <!--选择车牌号 首个汉字键盘 弹出层-->
     <div class="plate_number">
       <van-popup v-model="show_chinese" position="bottom" :overlay="true" overlay-class="displayNone">
@@ -182,7 +178,6 @@
         first: '',
         numArr: [],
         openId: sessionStorage.getItem('openId'),
-        bindcarinfo:null
       }
     }, watch: {
       input1() {
@@ -302,9 +297,6 @@
       },
     },
     created() {
-      console.log(1111)
-      console.log(sessionStorage.getItem('bindcarinfo'),123213412)
-      this.bindcarinfo=JSON.parse(sessionStorage.getItem('bindcarinfo'))
       if (this.$store.state.carbrandname == null) {
 
       } else {

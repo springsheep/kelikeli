@@ -24,6 +24,28 @@
           </div>
         </div>
       </div>
+      <!--<div class="bottom">-->
+        <!--<div class="left">-->
+          <!--<div class="lefttop">-->
+            <!--健康服务-->
+          <!--</div>-->
+          <!--<div class="choosecontent">-->
+            <!--<div class="choose" v-for="(item,index) in insuranceServiceIds1">-->
+              <!--<el-checkbox :label="item.name" size="mini" @change="choose()" v-model="check11"></el-checkbox>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+        <!--<div class="left">-->
+          <!--<div class="lefttop">-->
+            <!--金融服务-->
+          <!--</div>-->
+          <!--<div class="choosecontent">-->
+            <!--<div class="choose" v-for="(item,index) in useCarServiceIds1">-->
+              <!--<el-checkbox :label="item.name" size="mini" @change="choose1()" v-model="check12"></el-checkbox>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
     </div>
     <div class="content" style="height: 150px">
       <div class="top">版权说明</div>
@@ -61,8 +83,31 @@
         useCarServiceList: null,
         check: [],
         check1: [],
+        check12: [],
+        check11: [],
         insuranceServiceIds: [],
         useCarServiceIds: [],
+        insuranceServiceIds1: [
+          {name: "预约挂号"},
+          {name: "查医院"},
+          {name: "查药店"},
+          {name: "查疾病"},
+          {name: "健康自测"},
+          {name: "药品助手"},
+          {name: "医保目录"},
+          {name: "急救手册"},
+          {name: "体检解读"},
+          {name: "食补禁忌"},
+          {name: "查医保卡"},
+
+        ],
+        useCarServiceIds1: [
+          {name: "车价评估"},
+          {name: "车抵贷款"},
+          {name: "申请信用卡"},
+          {name: "个人医贷"},
+          {name: "众筹平台"},
+        ],
         input2: '',
         input1: '',
       };
@@ -123,6 +168,7 @@
         };
         this.$postHttp(options, '加载').then((res) => {
           if (res.state == 1) {
+            console.log(res.data)
             this.input1 = res.data.copyrightZh;
             this.input2 = res.data.copyrightEn;
             this.useCarServiceList = res.data.useCarServiceList;
@@ -158,11 +204,11 @@
   .content {
     width: 97%;
     margin: 15px auto;
-    height: 280px;
+
     background-color: #ffffff;
     border: solid 1px #d2d2d2;
     min-width: 1000px;
-
+    padding-bottom: 15px;
     .top {
       font-size: 13px;
       text-align: left;

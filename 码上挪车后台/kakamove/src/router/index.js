@@ -17,6 +17,8 @@ import kaka_ServiceConfiguration from "../components/kaka_ServiceConfiguration";
 import kaka_renewinsurance from "../components/kaka_renewinsurance";
 import kaka_addserver from "../components/kaka_addserver";
 import kaka_rbac from "../components/kaka_rbac";
+import kaka_inputNews from '../components/kaka_inputNews'
+import kaka_Noticequery from '../components/kaka_Noticequery'
 
 Vue.use(Router)
 
@@ -29,6 +31,9 @@ export default new Router({
       children: [
         {path: '/Home', redirect: `/activity`, meta: {requireAuth: true}},//二级路由重定向
         {path: '/activity', component: kaka_Activity, meta: {requireAuth: true}},//活动页面
+        {path: '/kaka_inputNews', component: kaka_inputNews, meta: {requireAuth: true}},//活动页面
+        {path: '/kaka_Noticequery', component: kaka_Noticequery, meta: {requireAuth: true}},//通知查询
+
         {path: '/Data', component: kaka_Data, meta: {requireAuth: true}},//数据统计
         {path: '/kaka_ServiceConfiguration', component: kaka_ServiceConfiguration, meta: {requireAuth: true}},//数据统计
         {path: '/kaka_renewinsurance', component: kaka_renewinsurance, meta: {requireAuth: true}},//一键续保

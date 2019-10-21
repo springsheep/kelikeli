@@ -24,6 +24,17 @@
                               :key="index2">
                   {{item2.menuName}}
                 </el-menu-item>
+               <router-link :to="{path:'/kaka_inputNews'}">
+                 <el-menu-item>
+                   发布通知
+                 </el-menu-item>
+               </router-link>
+                <router-link :to="{path:'/kaka_Noticequery'}">
+                  <el-menu-item>
+                    通知查询
+                  </el-menu-item>
+                </router-link>
+
               </div>
             </el-submenu>
             <el-menu-item :index="1+'-'+index1" v-else @click="change(item)">

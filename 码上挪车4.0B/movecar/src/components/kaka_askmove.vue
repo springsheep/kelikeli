@@ -39,10 +39,10 @@
         <img src="../assets/help.png" width="93.4%" class="bounceIn animated"/>
       </div>
     </div>
-    <footer v-show="hideshow">
-      <div>{{copyrightZh}}</div>
-      <div>{{copyrightEn}}</div>
-    </footer>
+    <!--<footer v-show="hideshow">-->
+      <!--<div>{{copyrightZh}}</div>-->
+      <!--<div>{{copyrightEn}}</div>-->
+    <!--</footer>-->
     <!--选择车牌号 首个汉字键盘 弹出层-->
     <div class="plate_number">
       <van-popup v-model="show_chinese" position="bottom" :overlay="true" overlay-class="displayNone">
@@ -93,8 +93,8 @@
     name: "kaka_askmove",
     data() {
       return {
-        copyrightZh:sessionStorage.getItem("copyrightZh"),
-        copyrightEn:sessionStorage.getItem("copyrightEn"),
+        // copyrightZh:sessionStorage.getItem("copyrightZh"),
+        // copyrightEn:sessionStorage.getItem("copyrightEn"),
         popupVisible: false,
         input1: '',
         input2: '',

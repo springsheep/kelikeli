@@ -89,40 +89,6 @@
 
           </div>
         </transition>
-
-        <!--<div class="right">-->
-        <!--<div style="padding-left: 50px">-->
-        <!--<el-tabs type="border-card">-->
-        <!--<el-tab-pane label="模版一">-->
-        <!--<div class="img">-->
-        <!--<img src="../assets/img1.png" alt="">-->
-        <!--<img src="../assets/img11.png" alt="">-->
-        <!--</div>-->
-        <!--<div class="preview">-->
-        <!--预览图-->
-        <!--</div>-->
-        <!--</el-tab-pane>-->
-        <!--<el-tab-pane label="模版二">-->
-        <!--<div class="img">-->
-        <!--<img src="../assets/img1.png" alt="">-->
-        <!--<img src="../assets/img11.png" alt="">-->
-        <!--</div>-->
-        <!--<div class="preview">-->
-        <!--预览图-->
-        <!--</div>-->
-        <!--</el-tab-pane>-->
-        <!--<el-tab-pane label="模版三">-->
-        <!--<div class="img">-->
-        <!--<img src="../assets/img1.png" alt="">-->
-        <!--<img src="../assets/img11.png" alt="">-->
-        <!--</div>-->
-        <!--<div class="preview">-->
-        <!--预览图-->
-        <!--</div>-->
-        <!--</el-tab-pane>-->
-        <!--</el-tabs>-->
-        <!--</div>-->
-        <!--</div>-->
       </div>
     </div>
 
@@ -199,9 +165,33 @@
         this.$axios(options).then((res) => {
 
           if (res.data.state == 1) {
-            this.$message.success(`上传成功`)
-            this.tableData = res.data.data;
-            console.log(this.tableData)
+
+            console.log(res.data.data)
+            var flag = true;
+            var num = ''
+            var TEL_REGEXP = /^1([38]\d|5[0-35-9]|7[3678])\d{8}$/;
+            var TEL_CARBRAND=/^[京津沪渝冀豫云辽黑湘皖鲁新苏浙赣鄂桂甘晋蒙陕吉闽贵粤青藏川宁琼使领A-Z]{1}[A-Z]{1}[A-Z0-9]{4}[A-Z0-9挂学警港澳]{1}$/
+            for(let i in res.data.data){
+              if(TEL_REGEXP.test(res.data.data[i].mobilePhoneNo)){
+
+              }else if(TEL_CARBRAND.test(res.data.data[i].carNo)){
+
+              }else {
+                flag=false
+                num = num+`${i}，`
+              }
+            }
+            if(flag){
+              this.tableData = res.data.data;
+              this.$message.success(`上传成功`)
+            }else {
+              this.$message({
+                message:`第${num}条数据车牌号码或手机号有误`,
+                type: 'warning'
+              });
+            }
+
+
           } else {
             this.$message({
               message: res.data.retMsg,

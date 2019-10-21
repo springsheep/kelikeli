@@ -193,8 +193,6 @@ router.beforeEach((to, from, next) => {
       }).then((res) => {
         if (res.data.state == '1') {
           sessionStorage.setItem('openId', res.data.data.openId)
-          store.state.bindcarinfo = res.data.data;//初始化将车辆信息复制给vuex
-          sessionStorage.setItem('bindcarinfo', JSON.stringify(res.data.data))
         }
       }).catch((error) => {
         console.log(error)

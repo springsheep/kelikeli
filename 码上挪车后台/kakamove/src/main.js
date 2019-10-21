@@ -14,12 +14,9 @@ Vue.prototype.$postHttp = postHttp
 Vue.use(ElementUI);
 Vue.use(Vuex);
 
-
-axios.defaults.baseURL = 'https://test.kelibbb.com/move_car/';
+axios.defaults.baseURL = 'https://api.kelibbb.com:443';
+// axios.defaults.baseURL = 'https://test.kelibbb.com/move_car/';
 // axios.defaults.baseURL = 'http://192.168.123.124:6080';
-
-// axios.defaults.timeout = 5000 // 请求超时
-// axios.defaults.baseURL = '/api/'  // api 即上面 vue.config.js 中配置的地址
 
 
 import store from '../src/store/index'

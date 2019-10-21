@@ -1,5 +1,4 @@
 <template>
-
   <div style="width: 100%;font-size: 13px;min-width: 1150px" class="activity">
     <transition name="el-zoom-in-center">
       <div class="mask" v-show="!showversion" @click="showversion=true">

@@ -150,9 +150,9 @@ router.beforeEach((to, from, next) => {
         if (res.data.state == '1') {
           console.log(res.data.data)
           sessionStorage.setItem('openId', res.data.data.openId)
-          sessionStorage.setItem('copyrightEn', res.data.data.copyrightEn==null?'':res.data.data.copyrightEn)
-          sessionStorage.setItem('copyrightZh', res.data.data.copyrightZh==null?'':res.data.data.copyrightZh)
-          sessionStorage.getItem("copyrightEn")
+          // sessionStorage.setItem('copyrightEn', res.data.data.copyrightEn==null?'':res.data.data.copyrightEn)
+          // sessionStorage.setItem('copyrightZh', res.data.data.copyrightZh==null?'':res.data.data.copyrightZh)
+          // sessionStorage.getItem("copyrightEn")
 
         }
       }).catch((error) => {
