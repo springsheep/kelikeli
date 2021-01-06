@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "animate": "^1.0.0",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "element-ui": "^2.11.1",
     "layer": "^0.1.0",
     "lib-flexible": "^0.3.2",
